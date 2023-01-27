@@ -10,17 +10,17 @@ OUTPUT = [1, 0, 2] karena kata 'bbb' terdapat 1 pada INPUT, kata 'ac' tidak ada 
 
 function countWord(arr) {
   let count = 0;
-  let result = [];
+  let output = [];
 
-//   for (let i = 0; i < arr.length; i++) {
-//     for (let q = 0; q < arr.length; q++) {
-//       if (arr[i] == arr[q]) {
-//         return count++;
-//       }
-//     }
-//     result(count);
-//   }
-// }
+  //   for (let i = 0; i < arr.length; i++) {
+  //     for (let q = 0; q < arr.length; q++) {
+  //       if (arr[i] == arr[q]) {
+  //         return count++;
+  //       }
+  //     }
+  //     output(count);
+  //   }
+}
 
 const input = ["xc", "dz", "bbb", "dz"];
 const query = ["bbb", "ac", "dz"];
