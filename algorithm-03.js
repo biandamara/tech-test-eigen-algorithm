@@ -8,11 +8,21 @@ QUERY = ['bbb', 'ac', 'dz']
 OUTPUT = [1, 0, 2] karena kata 'bbb' terdapat 1 pada INPUT, kata 'ac' tidak ada pada INPUT, dan kata 'dz' terdapat 2 pada INPUT
 */
 
-function countWord() {
-  for (let i = 0; i < word.length; i++) {}
-}
+function countWord(arr) {
+  let count = 0;
+  let result = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let q = 0; q < arr.length; q++) {
+//       if (arr[i] == arr[q]) {
+//         return count++;
+//       }
+//     }
+//     result(count);
+//   }
+// }
 
 const input = ["xc", "dz", "bbb", "dz"];
 const query = ["bbb", "ac", "dz"];
 
-console.log(countWords(input, query));
+console.log(countWord(input, query));
